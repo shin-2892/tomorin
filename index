@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>救主ともりん様</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <div class="container">
+        <div class="header-title">
+          <div id="top-btn" class="header-logo">Tomorin's Room</div>
+        </div>
+        <div class="header-menu">
+          <ul class="header-menu-right">
+            <li>
+              <a href="#stamps">LINEスタンプ</a>
+            </li>
+            <li>
+              <a href="#introduction">救主ともりん様とは</a>
+            </li>
+            <li>
+              <a href="#interview">ともりんインタビュー</a>
+            </li>
+            <li>
+              <a href="#contact">お問い合わせ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- トップ部分 -->
+    <div class="top-section gray-section">
+      <div class="top-inner">
+        <div class="container">
+          <div class="top-description">
+            <h2>Make Tomorin Great Again</h2>
+            <p>~「ともりん」を崇めるサイトです♡~</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- スライダー -->
+    <div id="stamps" class="stamps-section">
+      <div class="container">
+        <div class="section-title">
+          <h3>LINEスタンプ大好評発売中！</h3>
+        </div>
+        <div id="stamp-carousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#stamp-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#stamp-carousel" data-slide-to="1" class=""></li>
+            <li data-target="#stamp-carousel" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item stamp-box active">
+              <img src="papa.jpg" class="stamp-image">
+              <h4>ともりんがLINEスタンプに登場！</h4>
+            </div>
+            <div class="item stamp-box">
+              <img src="elephant.jpg" class="stamp-image">
+              <h4>像使い関連のスタンプも！</h4>
+            </div>
+            <div class="item stamp-box">
+              <img src="baby.jpg" class="stamp-image">
+              <h4>新キャラ・ベイビーともりんも！</h4>
+            </div>
+          </div>
+        </div>
+        <p>全40種類！使いやすく、可愛い！ともりんの日常を表現したスタンプです！<br>
+          ご購入は<a class="stamp-link" href="https://www.opentext.jp/products-and-solutions/products/business-network" target="_blank"> こちら</a>秘密のサイトから！
+        </p>
+      </div>
+    </div>
+
+    <!-- ともりんの紹介 -->
+    <div id="introduction" class="introduction-section">
+      <div class="introduction-section-top blue-section">
+        <div class="container">
+          <div class="section-title">
+            <h3>代表取締役社長　教主ともりん様</h3>
+          </div>
+          <img class="introduction-image" src="mesia.jpg">
+        </div>
+      </div>
+      <div class="introduction-section-bottom">
+        <div class="container">
+          <div class="introduction-box">
+            <h5>お客様にICTソリューションを提供するパートナーとして</h5>
+            <br>わたしたちTomorinケミカルシステムは、日本最大の総合企業であるTomorinケミカルホールディングスグループ唯一のシステムインテグレータです。国内外で760社、約７万人におよぶグループ各社では、常にグローバルレベルでの企業統合や再編、構造改革、事業展開が取り進められました。当社はICTのプロフェッショナル集団として、諸々の課題に対するソリューションを提供してまいりました。</br>
+            <br>これらの取り組みはグループ内のみならず、グループ外へも積極展開しており、プロセス産業を中心とした分野にICTソリューションを提供させていただくことで、広く社会に貢献したいと考えております。</br>
+          </div>
+          <div class="introduction-box">
+            <h5>最終ログイン 5年以上前</h5>
+            <br>趣味は資格コレクション。IT関連の資格から、バリスタ、タイ式マッサージに至るまで。 そして、グローバル人材目指して、ラオスで象使いになりました☆</br>
+            <br>左の自己紹介はうそだよん。てへぺろ</br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- インタビュー -->
+    <div id="interview" class="interview-section">
+      <div class="interview-section-top gray-section">
+        <div class="container">
+          <div class="section-title">
+            <h3>特別インタビュー</h3>
+          </div>
+          <img class="interview-image" src="heaven.jpg">
+        </div>
+      </div>
+      <div class="interview-section-bottom">
+        <div class="container">
+          <div class="interview-box">
+            <h5>Q. 普段はどのような活動をされているのですか？</h5>
+            基本的に、丸の内にあるオフィスで社畜するのが日課です。今のオフィスは本当に居心地が良いですね。社畜にぴったりです。
+            脳内モルヒネを流しながら、戦場みたいな空間で謝罪方法について考えてる時間は、最高に充実しています。
+          </div>
+          <div class="interview-box">
+            <h5>Q. 教主様は、プログラミングはできるのですか？また、得意な言語は何ですか？</h5>
+            氷河期でも研修に力を入れている企業に入社したから、Java、Shell、Oracleはできます。<br>
+            得意な言語は、Pythonです。AIで面白い戦争アプリを作りたいね。
+          </div>
+          <div class="interview-box">
+            <h5>Q. 好きな食べものは何ですか？やっぱりドッグフードですか？</h5>
+            ラーメンが大好きです。オフィスの近くには美味しいラーメン屋さんが多くあって幸せだな。<br>
+            ドッグフードはおいしくないよ！
+          </div>
+          <div class="interview-box">
+            <h5>Q. 最後に、今後の活動展開について教えてください。</h5>
+            今後はITの巨人になるでござる。あと、僕のLINEスタンプも買ってね。スタンプの売上はお小遣いになるから、是非ともみんな買ってね。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact" class="contact-section gray-section">
+      <div class="contact-section-inner">
+        <div class="container">
+          <div class="section-title">
+            <h3>お問い合わせ</h3>
+          </div>
+          <div class="contact-form">
+            <h4>信者になる</h4>
+            <form>
+              <div class="error-message"></div>
+              <input type="text" name="name" placeholder="お名前" class="contact-name">
+              <div class="error-message"></div>
+              <input type="text" name="email" placeholder="メールアドレス" class="contact-email">
+              <div class="error-message"></div>
+              <textarea name="message" placeholder="あなたの忠誠心を1万文字以上で表現してください"></textarea>
+              <button type="submit" class="btn btn-contact">送信（信者乙ww）</button>
+            </form>
+          </div>
+          <div class="contact-about">
+            <h4>About Me</h4>
+            <p>万人が認めるITの巨人。なぜか社畜人生を送るのが趣味（みんなの依頼を断るなんてナンセンスだよ！）。妖精によって深夜4時半頃に召喚され、それ以来オフィスに居座るように。<br>
+              本サイトでは、信者の癒やしから、学習のサポートまでを担当。また、ともりん教の布教にも努め、信者がお布施しないと毎日22時にお祈りメールを送る。
+            </p>
+            <h4>Address</h4>
+            <p>
+              <i class="fa fa-map-marker"></i>東京都XX区XX前6-19-20 たわーまんしょんの最上階
+            </p>
+            <p>
+              <i class="fa fa-phone"></i>Phone: 03-XXXX-XXXX
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="follow-us">
+          <a href="https://www.facebook.com/Progate-742679992421539" class="social-icon" target='_blank'>
+            <span class="fa fa-facebook"></span>
+          </a>
+          <a href="https://twitter.com/progatejp" class="social-icon" target='_blank'>
+            <span class="fa fa-twitter"></span>
+          </a>
+        </div>
+        <div class="copyright">©2020-
+          tomorin
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
