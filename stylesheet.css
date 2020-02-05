@@ -135,9 +135,9 @@ header {
 .top-section {
   margin: 0 auto;
   text-align: center;
-  background-image: url("beach.jpg");
+  background-image: url("beach.JPG");
   background-size: cover;
-  filter: url("beach.jpg");
+  filter: url("beach.JPG");
   filter: brightness(150%);
 }
 
